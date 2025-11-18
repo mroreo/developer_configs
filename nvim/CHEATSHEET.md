@@ -66,3 +66,29 @@ Press `<space>e` to open, then:
 | `ci(` | Change inside parens |
 | `di{` | Delete inside braces |
 | `viw` | Select word |
+
+## Basic Vim Navigation
+| Key | Action |
+|-----|--------|
+| `h` `j` `k` `l` | Left, Down, Up, Right |
+| `w` | Next word |
+| `b` | Previous word |
+| `e` | End of word |
+| `0` | Start of line |
+| `$` | End of line |
+| `gg` | First line |
+| `G` | Last line |
+| `{` `}` | Previous/next paragraph |
+
+## Basic Editing
+| Key | Action |
+|-----|--------|
+| `i` | Insert before cursor |
+| `a` | Insert after cursor |
+| `o` | New line below |
+| `O` | New line above |
+| `dd` | Delete line |
+| `yy` | Copy line |
+| `p` | Paste |
+| `u` | Undo |
+| `<C-r>` | Redo |
