@@ -2,6 +2,24 @@
 
 Simple Python development setup with conda support.
 
+## Structure
+
+```
+~/.config/nvim/
+├── init.lua                    # Main config (settings & keymaps)
+├── lua/
+│   └── plugins/
+│       ├── colorscheme.lua     # Catppuccin theme
+│       ├── ui.lua              # nvim-tree, bufferline
+│       ├── telescope.lua       # Fuzzy finder
+│       ├── treesitter.lua      # Syntax highlighting & neogen
+│       ├── completion.lua      # nvim-cmp
+│       ├── lsp.lua             # LSP config (Pyright)
+│       └── repl.lua            # Iron REPL
+├── README.md
+└── CHEATSHEET.md
+```
+
 ## Plugins
 
 - **catppuccin** - Colorscheme
@@ -9,6 +27,7 @@ Simple Python development setup with conda support.
 - **telescope** - Fuzzy finder
 - **bufferline** - Buffer tabs
 - **treesitter** - Syntax highlighting
+- **neogen** - Docstring generator (numpy style)
 - **nvim-lspconfig + mason** - LSP (Pyright)
 - **nvim-cmp** - Auto-completion
 - **iron.nvim** - Python REPL
