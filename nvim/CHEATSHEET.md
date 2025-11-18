@@ -13,13 +13,14 @@
 | `<S-Tab>` | Previous buffer |
 | `<space>x` | Close buffer |
 
-## LSP
+## LSP & Code
 | Key | Action |
 |-----|--------|
 | `gd` | Go to definition |
 | `K` | Hover documentation |
 | `<space>ca` | Code action |
 | `<space>rn` | Rename |
+| `<space>d` | Generate docstring (numpy style) |
 
 ## Completion (Insert Mode)
 | Key | Action |
