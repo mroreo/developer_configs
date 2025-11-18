@@ -42,10 +42,20 @@
 Press `<space>e` to open, then:
 | Key | Action |
 |-----|--------|
-| `a` | New file/folder |
+| `a` | New file/folder (end with `/` for folder) |
 | `d` | Delete |
 | `r` | Rename |
 | `<CR>` | Open file |
+| `q` | Close explorer |
+
+## File Commands
+| Command | Action |
+|---------|--------|
+| `:e filename` | Create/edit new file |
+| `:w` | Save |
+| `:q` | Quit |
+| `:wq` | Save and quit |
+| `:LspRestart` | Restart LSP server |
 
 ## Text Objects
 | Key | Action |
